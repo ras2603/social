@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.Batting{
+    background-image: url('mkbatting.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.bowling{
+    background-image: url('maazballing.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}

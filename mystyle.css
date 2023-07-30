@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+header{
+
+    background-size: 100%;
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top:50px;
+    margin-right: 100px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding:15px 20px;
+    border:1px solid white;
+    transition:0.6s ease;
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+
+}
+.logo img{
+    float: left;
+    width:110px;
+    height:110px;
+    padding:20px 20px;
+    border:3px solid white;
+    margin-left: 80px;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.clubs{
+    left:72px;
+    bottom: 35px;
+    position:absolute;
+}
+.clubs ul li{
+    list-style: none;
+    margin-top: 25px;
+    text-align: center;
+}
+.clubs ul li a{
+    text-decoration: none;
+    color:white;
+    border-radius:1%;
+    border:2px solid white;
+    padding:5px 20px;
+
+    display:block;
+}
+.clubs ul li a:hover{
+    background-color: white;
+    color:black;
+
+}
+.clubs ul li h1{
+    color:yellow;
+    padding:8px 12px;
+    border-radius: 100px;
+    border:3px solid white;
+}
+.heading h1 a{
+    color:yellow;
+    padding:15px 20px;
+    border-radius: 30%;
+    border: 3px solid white;
+    cursor:pointer;
+}
+.heading h1 a:hover{
+    background-color: white;
+    color: black;
+
+}
+.heading h2{
+    color:yellow;
+    padding:50px 50px;
+
+}
+.heading h3{
+    color:yellow;
+}
+.heading p1{
+    font-size:20px;
+    color:white;
+    padding:50px 15px;
+
+}
+.heading p2{
+    font-size:20px;
+    color:white;
+    padding:50px 15px;
+    
+}
+.end h1{
+    font-size: 50px;
+    color:yellow;
+    padding:30px 15px;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  button{
+    border:none;
+    border-radius:5px;
+    padding:10px 10px;
+    font-size:18px;
+    cursor:pointer;
+  }
+  
+  button{
+    color: white;
+    background-color:black;
+  }
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:black;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  .dropdown-options a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    padding:20px 40px;
+  }
+  
+  .dropdown-options a:hover {
+    color: black;
+    background-color: white;
+    border-radius:5px;
+  }
+  .text{
+    padding-top: 200px;
+    padding-left: 700px;
+}
+.end p3{
+    font-size:20px;
+    color:white;
+    padding:50px 15px;
+    
+}
+
+.end h2{
+    color:yellow;
+    padding:20px 20px;
+
+}
+
+.text{
+    color:white;
+    
+}
+.text h3{
+    color: black;
+}
